@@ -31,6 +31,10 @@ extern "C" {
     #include "x16rv2.h"
     #include "neoscrypt.h"
     #include "minotaur.h"
+	#include "yespower/yespower.h"
+    #include "yespower/crypto/sha256.h"
+    #include "yespower/util/sysendian.h"
+    #include "yespower/util/insecure_memzero.h"
 }
 
 #include "boolberry.h"
